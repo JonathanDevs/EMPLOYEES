@@ -1,0 +1,14 @@
+{
+  "name": "mean-employees",
+  "version": "1.0.0",
+  "description": "MEAN Curso - Mongodb, Express, Angular 6 y Nodejs, Parte 1 - Backend con Nodejs, Express y Mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonathandevs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
