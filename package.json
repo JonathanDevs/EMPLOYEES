@@ -4,11 +4,16 @@
   "description": "MEAN Curso - Mongodb, Express, Angular 6 y Nodejs, Parte 1 - Backend con Nodejs, Express y Mongodb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server/index.js"
   },
   "author": "jonathandevs",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.7.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
